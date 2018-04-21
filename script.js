@@ -6,6 +6,6 @@ var text =
 
 var dinosaur = 'triceratops'.toUpperCase();
 
-text.replace('Velociraptor', dinosaur);
+var new_text = text.replace('Velociraptor', dinosaur);
 
-console.log(text.substr(0, text.length / 2));
+console.log(new_text.substr(0, new_text.length / 2));
